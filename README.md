@@ -18,6 +18,7 @@ This is a Spring Boot REST API for managing a golf club system. It allows you to
 
 ##  API Endpoints
 
+
 ###  Member Endpoints
 
 | Method | Endpoint             | Description                |
@@ -56,6 +57,14 @@ This is a Spring Boot REST API for managing a golf club system. It allows you to
 | GET    | /api/tournaments/{id}/participants   | Get all registered members         |
 
 ---
+
+
+## ScreenShot
+
+
+
+
+
 
 ##  How to Run with Docker
 
