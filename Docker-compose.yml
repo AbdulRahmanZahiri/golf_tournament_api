@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  app:
+    image: golf_tournament-app:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: golfclub_app
+    ports:
+      - "80:8080"
+
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://deployingexample12.cztb7lfnmjfm.us-east-1.rds.amazonaws.com:3306/deployingexample12
+      SPRING_DATASOURCE_USERNAME: admin
+      SPRING_DATASOURCE_PASSWORD: Keyin2025
