@@ -63,4 +63,9 @@ public class Member {
 
     public Set<Tournament> getTournaments() { return tournaments; }
     public void setTournaments(Set<Tournament> tournaments) { this.tournaments = tournaments; }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
 }

@@ -174,12 +174,5 @@ POST /api/tournaments
 }
 ```
 
-## 👨‍💻 **Development Workflow**
-- Trunk-based development strategy
-- Main branch is always in deployable state
-- Use of feature branches for isolated updates
-- Code must pass tests before merging
-
----
 
 **Crafted with ❤️ by Abdul Rahman Zahiri using Java 21 and Spring Boot 3.5.3**
